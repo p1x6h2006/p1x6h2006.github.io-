@@ -29,12 +29,13 @@
     }
 
     nav a {
-	  letter-spacing: 2px;
+	  letter-spacing: 1px;
       color: #e2e8f0;
       margin-left: 35px;
       text-decoration: none;
       font-weight: 500;
       transition: color 0.3s;
+	  margin: 10px;
     }
 
     nav a:hover {
@@ -166,5 +167,16 @@
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
   filter: brightness(1.2);
 }
-    /* tạo danh mục */
- 
+ .game-category {
+  background-color: #1a2332; /* Màu nền tối */
+  color: #ffffff; /* Chữ trắng */
+  border: 1px solid #3a4a6a; /* Viền nhẹ */
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
